@@ -22,6 +22,8 @@ namespace SeleniumDemo.Tests
             Assert.AreEqual("http://localhost:64872/Account/Register", driver.Url);
 
             driver.Quit();
+
+            //
         }
     }
 }
